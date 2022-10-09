@@ -1,0 +1,41 @@
+
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1,5;  
+}
+ 
+.social-links .link:active {
+    color: blue;
+}
+.kontakt:hover,
+.kontakt:focus {
+    color: green;
+}
+.kontakt .mail {
+    color: inherit;
+}
+.kontakt .tel {
+    color: inherit;
+}
+.kontakt:active {
+    color: yellow;
+}
+.filtr .btn:active {
+    color: red;
+}
+.filtr {
+    list-style-type: none;
+}
+.kontakt {
+    list-style-type: none;
+}
+.obrazy {
+    list-style-type: none;
+}
+.btn {
+    cursor: pointer;
+}

@@ -5,39 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
     <header>
         <a href="#">
         WebStudio
         </a>
-<nav>
+<nav class="social-links">
     <ul>
         <li>Agencja</li>
-        <li><a href="">Portfolio</a></li>
+        <li><a href="" class="link">Portfolio</a></li>
         <li>Kontakty</li>
 
     </ul>
 </nav>
-    <ul>
-        <li><a href="maito:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel.+48111111111">+48 111 111 111</a></li>
+    <ul class="kontakt">
+        <li><a href="maito:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+        <li><a href="tel.+48111111111" class="tel">+48 111 111 111</a></li>
 
     </ul>
 
     </header>
-</body>
+
 <main>
     <section>
-        <ul>
-            <li><button type="button">Wszystkie</button></li>
-            <li><button type="button">Strony</button></li>
-            <li><button type="button">Aplikacje</button></li>
-            <li><button type="button">Design</button></li>
-            <li><button type="button">Marketing</button></li>
+        <ul class="filtr">
+            <li><button type="button" class="btn">Wszystkie</button></li>
+            <li><button type="button" class="btn">Strony</button></li>
+            <li><button type="button" class="btn">Aplikacje</button></li>
+            <li><button type="button" class="btn">Design</button></li>
+            <li><button type="button" class="btn">Marketing</button></li>
         </ul>
 
-        <ul>
+        <ul class="obrazy">
             
             <li><figure><img src="./images/img.jpg" alt="Technocrack" width="370" height="294"></figure><figcaption>Technocrack strona internetowa</figcaption></li>
             <li><figure><img src="./images/img (1).jpg" alt="Design" width="370" height="294"></figure><figcaption>Grafika New Orlans vs GSW Design</figcaption></li>
@@ -60,10 +68,11 @@
     </a>
     <address>
         m.Warszawa, Aleje Jerozolimskie 21 
-        <ul>
-            <li><a href="mailt:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <ul class="kontakt">
+            <li><a href="mailt:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+            <li><a href="tel:+48111111111" class="tel">+48 111 111 111</a></li>
         </ul>
     </address>
-</footer>
+</footer> 
+</body>
 </html>
