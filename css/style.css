@@ -2,14 +2,14 @@
     --brand-color: #FFFFFF;
     --brand-color-main: #E5E5E5;
     --brand-color-footer: #2F303A;
-    --barnd-color-podkreslenie: blue;
-    --brand-color-aktywne: red;
+    --barnd-color-podkreslenie: #0000FF;
+    --brand-color-aktywne: #FF0000;
 }
 
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    color: black;
+    color: #000000;
    
 }
 
@@ -29,10 +29,10 @@ body {
 .logo .wyraz2 {
     color: #000000;
 }
-.logo:hover {
+/* .logo:hover {
     text-decoration: underline;
     text-decoration-color: var(--barnd-color-podkreslenie);
-}
+} */
 
 .social-links {
     list-style-type: none;
@@ -45,11 +45,13 @@ body {
     line-height: 1,19;
     letter-spacing: 0,02em;
     text-decoration: none;
+    color: #212121;
 }
 
-.social-links .link:hover {
-    text-decoration: underline;
-    text-decoration-color: var(--barnd-color-podkreslenie);
+.social-links a:hover {
+    /* text-decoration: underline;
+    text-decoration-color: var(--barnd-color-podkreslenie); */
+    color: green;
 }
 .social-links .link:active {
     color: var(--brand-color-aktywne);
@@ -70,9 +72,9 @@ body {
 
 .kontakt-naglowek .dane:hover,
 .kontakt-naglowek .dane:focus {
-    color: var(--barnd-color-podkreslenie);
-    text-decoration: underline;
-    
+    /* color: var(--barnd-color-podkreslenie);
+    text-decoration: underline; */
+    color: green;
 }
 
 .kontakt-naglowek .dane:active {
@@ -128,7 +130,7 @@ body {
     letter-spacing: 0,03em;
     color: #757575;
 }
-.wyglad1:hover,
+/* .wyglad1:hover,
 .wyglad1:focus {
     text-decoration: underline;
     text-decoration-color: var(--barnd-color-podkreslenie);
@@ -137,7 +139,7 @@ body {
 .wyglad2:focus {
     text-decoration: underline;
     text-decoration-color: var(--barnd-color-podkreslenie);
-}
+} */
 .filtr {
     list-style-type: none;
 }
@@ -150,6 +152,9 @@ body {
 .btn {
     cursor: pointer;
 }
+.btn1 {
+    cursor: pointer;
+}
 .naglowek {
     background-color: var(--brand-color);
 }
@@ -159,26 +164,17 @@ body {
 .stopka {
     background-color: var(--brand-color-footer);
 }
-.logo1 {
-    font-family: 'Raleway';
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
-    text-decoration: none;
 
-}
-.logo1 .wyraz1 {
+.logo .wyraz1 {
     color: #2196F3;
 }
-.logo1 .wyraz2 {
+.logo .wyraz2 {
     color: #FFFFFF;
 }
-.logo1:hover {
+/* .logo1:hover {
     text-decoration: underline;
     text-decoration-color: var(--barnd-color-podkreslenie);
-}
+} */
 .opisadresu {
     font-family: 'Roboto';
     font-style: normal;
@@ -204,8 +200,9 @@ body {
 
 .kontakt-stopka .informacje:hover,
 .kontakt-stopka .informacje:focus {
-    color: var(--barnd-color-podkreslenie);
-    text-decoration: underline;
+    /* color: var(--barnd-color-podkreslenie);
+    text-decoration: underline; */
+    color: green;
 }
 
 .kontakt-stopka .informacje:active {
