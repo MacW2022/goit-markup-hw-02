@@ -4,9 +4,11 @@
     --brand-color-sekcja2: #E5E5E5;
     --brand-color-sekcja4: #F5F4FA;
     --brand-color-stopka: #2F303A;
+    --brand-color-hover: #2196F3;
 }
 body {
-
+    color:#000000;
+    background-color: #E5E5E5;
 }
 .naglowek {
     background-color: var(--brand-color);
@@ -38,7 +40,7 @@ body {
     text-decoration: none;
 }
 .social-links .link:active {
-    color: green;
+    color: var(--brand-color-hover);
 }
 .kontakt-dane {
     font-family: 'Roboto';
@@ -54,14 +56,12 @@ body {
     list-style-type: none;
 }
 .kontakt .kontakt-dane:active {
-    color: yellow;
+    color: var(--brand-color-hover);
 }
 .kontakt-dane:hover {
-    color: red;
+    color: var(--brand-color-hover);
 }
-.kontakt .kontakt-dane {
 
-}
 .sekcja1 {
     background-color: var(--brand-color-sekcja1);
 }
@@ -88,9 +88,11 @@ body {
     letter-spacing: 0,06em;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
+    border-radius: 10%;
 }
 .btn:active {
-    color:#FF0000;
+    color: var(--brand-color-hover);
 }
 .sekcja2 {
     background-color: var(--brand-color-sekcja2);
@@ -199,8 +201,8 @@ p {
 }
 .info:hover,
 .info:focus {
-    color: green;
+    color: var(--brand-color-hover);
 }
 .kontakt-stopka .info:active {
-    color: pink;
+    color: var(--brand-color-hover);
 }
