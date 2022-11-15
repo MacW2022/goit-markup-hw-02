@@ -10,7 +10,7 @@ body {
     color:#000000;
     background-color: #E5E5E5;
 }
-.naglowek {
+.header {
     background-color: var(--brand-color);
 }
 .logo {
