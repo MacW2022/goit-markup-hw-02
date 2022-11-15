@@ -178,7 +178,7 @@ p {
 .stopka {
     background-color: var(--brand-color-stopka);
 }
-.logo span1 {
+.logo .span1 {
     color: #FFFFFF;
 }
 .adres-opis {
