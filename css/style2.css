@@ -18,8 +18,8 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
-    letter-spacing: 0,03em;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
 }
@@ -34,8 +34,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
 }
@@ -50,8 +50,8 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
 }
@@ -73,9 +73,9 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,4;
+    line-height: 1.4;
     text-align: center;
-    letter-spacing: 0,06em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
@@ -85,10 +85,10 @@ body {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     align-items: center;
     text-align: center;
-    letter-spacing: 0,06em;
+    letter-spacing: 0.06em;
     color: #FFFFFF;
     cursor: pointer;
     border: none;
@@ -109,8 +109,8 @@ h3 {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
-    letter-spacing: 0,03em;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
@@ -119,8 +119,8 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 .sekcja3 {
@@ -131,9 +131,9 @@ p {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 .obrazki {
@@ -147,9 +147,9 @@ p {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 .obrazki {
@@ -160,9 +160,9 @@ p {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: left;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: #212121;
 }
 .akapit2 {
@@ -170,9 +170,9 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: left;
-    letter-spacing: 0,03em;
+    letter-spacing: 0.03em;
     color: #757575;
 }
 .stopka {
@@ -186,8 +186,8 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .kontakt-stopka {
@@ -198,8 +198,8 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,71;
-    letter-spacing: 0,03em;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }

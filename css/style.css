@@ -3,13 +3,16 @@
     --brand-color-main: #E5E5E5;
     --brand-color-footer: #2F303A;
     --barnd-color-aktyw: #2196F3;
-
+    --brand-color-text: #212121;
+    --barnd-color-text-header: #757575;
+    --barnd-color-main-text: #000000;
+    --brand-color-btn-background: #F5F4FA;
 }
 
 
 body {
     font-family: 'Roboto', 'Raleway', sans-serif;
-    color: #000000;
+    color: var(--barnd-color-main-text);
    
 }
 
@@ -18,16 +21,16 @@ body {
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1,17;
-    letter-spacing: 0,03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
 .logo .wyraz1 {
-    color: #2196F3;
+    color: var(--barnd-color-aktyw);
 }
 .logo .wyraz2 {
-    color: #000000;
+    color: var(--barnd-color-main-text);
 }
 
 
@@ -39,10 +42,10 @@ body {
     font-style: normal;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1,19;
-    letter-spacing: 0,02em;
+    line-height: 1.19;
+    letter-spacing: 0.02em;
     text-decoration: none;
-    color: #212121;
+    color: var(--brand-color-text);
 }
 
 .social-links a:hover {
@@ -60,10 +63,10 @@ body {
     font-style: normal;
     font-size: 14px;
     font-weight: 500;
-    line-height: 1,14;
-    letter-spacing: 0,02em;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
     text-decoration: none;
-    color: #757575;
+    color: var(--barnd-color-text-header);
 }
 
 .kontakt-naglowek .dane:hover,
@@ -80,35 +83,23 @@ body {
     font-style: normal;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
-    letter-spacing: 0,03em;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    letter-spacing: 0.03em;
+    color: var(--brand-color-text);
+    background-color: var(--brand-color-btn-background);
     border-radius: 5px;
     border: none;
 }
-.filtr .btn1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1,6;
-    text-align: center;
-    letter-spacing: 0,03em;
-    color: #212121;
-    background-color: #F5F4FA;
-    border: none;
-    border-radius: 5px;
-   
 
+.filtr .btn:hover {
+    color: var(--brand-color);
+    background-color: var(--barnd-color-aktyw);
 }
 .filtr .btn:active {
     color: var(--barnd-color-aktyw);
 }
-.filtr .btn1:active {
-    color: var(--barnd-color-aktyw);
-}
+
 
 .obrazy .wyglad1 {
     font-family: 'Roboto';
@@ -116,17 +107,17 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
-    letter-spacing: 0,06em;
-    color: #212121;
+    letter-spacing: 0.06em;
+    color: var(--brand-color-text);
 }
 .obrazy .wyglad2 {
     font-family: 'Roboto';
     font-style: normal;
     font-size: 16px;
     font-weight: 400;
-    line-height: 1,9;
-    letter-spacing: 0,03em;
-    color: #757575;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--barnd-color-text-header);
 }
 
 .filtr {
@@ -155,10 +146,10 @@ body {
 }
 
 .logo .wyraz1 {
-    color: #2196F3;
+    color: var(--barnd-color-aktyw);
 }
 .wyraz3 {
-    color: #FFFFFF;
+    color: var(--brand-color);
 }
 
 .opisadresu {
@@ -166,8 +157,8 @@ body {
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1,17;
-    letter-spacing: 0,03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 .kontakt-stopka {
@@ -178,8 +169,8 @@ body {
     font-style: normal;
     font-size: 14px;
     font-weight: 400;
-    line-height: 1,17;
-    letter-spacing: 0,03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
