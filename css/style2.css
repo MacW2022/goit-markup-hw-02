@@ -39,6 +39,9 @@ body {
     color: #212121;
     text-decoration: none;
 }
+.social-links a:hover {
+    color: var(--brand-color-hover);
+}
 .social-links .link:active {
     color: var(--brand-color-hover);
 }
@@ -94,6 +97,7 @@ body {
 .btn:active {
     color: var(--brand-color-hover);
 }
+
 .sekcja2 {
     background-color: var(--brand-color-sekcja2);
 }
